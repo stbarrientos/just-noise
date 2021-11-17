@@ -1,0 +1,8 @@
+require: rubocop-rails
+AllCops:
+  Exclude:
+    - Gemfile
+    - bin/bundle
+
+Style/Documentation:
+  Enabled: false
